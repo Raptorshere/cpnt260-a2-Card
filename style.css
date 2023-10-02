@@ -3,11 +3,11 @@
 
 body{
   gap: 0;
-  background-color: #800080;
-    border: 5px solid;
- padding: 0;
- margin: auto;
- border-color: #FFD700;
+  background-color:#800080;
+  border: 5px solid;
+  padding: 0;
+  margin: auto;
+  border-color: #FFD700;
 }
 
 
@@ -16,15 +16,19 @@ button:hover{
 }
 
 
+a {
+  color:#FFD700;
+}
+
+
 button{
   display: flex;
   justify-content: center;
 
   background-color: #FFD700;
-  max-width: 20rem;
+  min-width: 40ch;
   font-size: 20px;
   border-radius: 2px;
-  gap: 0;
 
   clip-path: view-box;
   margin:auto;
@@ -34,17 +38,17 @@ button{
 
 a :hover{
   cursor: pointer;
-  font-palette:  #FFD700;
+  color: #FFD700;
 }
 
 
 h3{
   gap: 0;
-  color: green;
+  color:#FFD700;
   margin: auto;
 
-font-family:'Monoton', cursive;
-font-size:xx-large;
+  font-family:'Monoton', cursive;
+  font-size:xx-large;
 }
 
 
@@ -59,13 +63,13 @@ p {
 
 h2 {
   gap: 0;
-color: #FFD700;
-font-size: large;
+  color: #FFD700;
+  font-size: large;
 }
 
 
 img{
-border-radius: 40px;
+  border-radius: 40px;
   height: 300px;
   width: 300px;
 
@@ -74,7 +78,6 @@ border-radius: 40px;
 
 .vacuums {
   border-radius: 40px;
-  gap: 0;
   background-color: black;
   
   margin: auto;
